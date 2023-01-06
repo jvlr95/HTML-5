@@ -10,15 +10,18 @@ body {
         font-family: Arial, sans-serif;
         background-color: #dddddd;
         color: rgba(0,0,0,1);
+        width: auto;
+        height: auto;
+        margin: 0%;
         
 }
 
 div#interface {
-    width: 900px;
+    width: 1200px;
     background-color: #ffffff;
     margin: -10px auto 0px auto;
     box-shadow: 0px 0px 10px rgba (0,0,0,.5);
-    padding: 10px;
+    padding: 20px;
 }
 
 p{
@@ -37,7 +40,7 @@ a:hover{
 
 header#cabecalho img#icone{
     position: absolute;
-    left: 1230px;
+    left: 1380px;
     top: 30px;
 
 }
@@ -52,6 +55,7 @@ header#cabecalho {
 header#cabecalho h1{
     font-family: 'FonteLogo', sans-serif;
     font-size: 30pt;
+    text-align: center;
     color: #606060;
     text-shadow: 1px 1px 1px rgba(0,0,0,.6);
     padding: 0px;
@@ -60,8 +64,9 @@ header#cabecalho h1{
 
 header#cabecalho h2{
     font-family: 'Titillium Web', sans-serif;
+    font-size: :15pt;
+    text-align: center;
     color: #888888;
-    font-size: :15ptS;
     margin-top: 0px;
 }
 /*formatacao de imagens com legenda*/
@@ -97,7 +102,8 @@ figure.foto-legenda:hover figcaption {
 /*formatacao do menu*/
 
 nav#menu {
-    display: block;
+    display: flex;
+    justify-content: center;
 }
 
 nav#menu ul{
@@ -119,6 +125,7 @@ nav#menu li {
 nav#menu li:hover {
     background-color: #606060;
 }
+
 nav#menu h1 {
     display: none;
 }
@@ -135,7 +142,7 @@ nav#menu a:hover {
 
 section#corpo {
     display: block;
-    width: 500px;
+    width: 750px;
     float: left;
     border-right: 1px solid gainsboro;
     padding-right: 15px;
@@ -219,7 +226,7 @@ table#tabelaespecs caption span {
 
 aside#lateral {
     display: block;
-    width: 350px;
+    width: 400px;
     float: right;
     background-color: #dddddd;
     padding: 10px;
